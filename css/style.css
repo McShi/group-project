@@ -1,0 +1,311 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          
+}
+/*red-used  #a72800
+green-used  #68910a
+gold-used   #f7c229
+*/
+
+.navigation {
+  list-style: none;
+  margin: 0; 
+    background: #f7c229;
+  width: 100%;
+  display: flex;
+font-weight: bolder;
+    font-family: Fredoka;
+align-items: center;
+  flex-flow: row wrap;
+    
+  justify-content: flex-end;
+}
+
+.navigation li:first-child {
+  margin-right: auto;
+}
+
+.navigation li:nth-child(5) {
+  margin-right: 70px;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: #a72800 ;
+}
+
+.navigation a:hover {
+    font-size: 150%;
+    background: darken;
+}
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+  }
+
+
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+
+.waterfall {
+    
+     margin: 0;
+     padding: 0;
+     
+    background-image: url(../images/waterfall.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-1 {
+    
+    text-align: center;
+    
+    color: #F8F8F8;
+    
+    font-size: 20px;
+    
+    font-family: Ultra; 
+    
+    margin-top: 70px;
+    
+    height: 100px;
+   
+}
+
+.container-2 {
+    
+    text-align: center;
+    
+    color:  #F8F8F8;
+    
+    font-size: 20px;
+    
+    font-family: Ultra;
+    
+    margin-bottom: 40px;
+    
+    padding-top: 60px;
+
+}
+
+.container-2 h1 { 
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    margin-top: 220px;
+
+}
+
+/*Letting in button blue - why?*/
+.btn  {
+    width: 120px;
+    border: solid 3px #a72800;
+    height: 120px;
+    color: #a72800;
+    background-color:  #f7c229 ;
+    
+    border-radius: 10px;
+    
+    text-align: center;
+    
+    font-family: Ultra;
+    font-size : 22px; 
+    
+    padding-top: 32px;
+    
+    margin-left: 45%;
+    margin-bottom: 10px;
+
+}
+
+/*red-used  #a72800
+green-used  #68910a
+gold-used   #f7c229
+*/
+
+.header {
+    text-align: center;
+    color: #a72800;
+    padding: 25px;
+    margin: 25px;
+    background-color: rgba(104, 145, 10, 0.3);
+}
+
+.company-history {
+    font-size: 20px;
+	text-align: center;
+    color: #a72800;
+	margin:20px;
+	padding:15px; 
+}
+h2 {
+    text-align: center;
+    color: #a72800;
+    padding: 25px;
+    margin: 25px;
+    background-color: rgba(247, 194, 41, 0.3);
+}
+
+h4 {
+    text-align: center;
+    color: #a72800;
+    padding: 25px;
+    margin: 25px;
+    background-color: rgba(104, 145, 10, 0.3);}
+
+
+.card-container {
+	margin:10px;
+    background-color: rgba(104, 145, 10, 0.3);
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.card {
+	width:400px;
+	margin:10px;
+}
+
+.card-image {
+	margin:10px;
+	height:200px;
+    
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+}
+
+.card-header {
+	font-size: 20px;
+	text-align: center;
+    color: #a72800;
+	margin:10px;
+	padding:5px;
+}
+
+.card-content {
+	margin:10px;
+	padding:10px;
+    color: #a72800;
+    
+}
+
+
+blockquote {
+    font-size:16px; 
+    color: #a72800;
+    text-align: center;
+    border: solid 3px #a72800;
+    padding:18px 20px 1px 20px;
+    margin-left:15px; 
+    margin-right:15px;
+    margin-bottom:40px;
+    background:rgba(104, 145, 10, 0.3);
+}	
+#wrapper {
+    background-color: rgba(247, 194, 41, 0.5);
+}
+
+/*
+blockquote:before {
+    color: #a72800;
+    font-size: 30px;
+    line-height: 0.5em;
+    margin-right: 0.27em;
+    content: "\f10d";
+    font-family: FontAwesome;
+    float:left;
+}*/
+
+/*
+blockquote:before, blockquote:after {
+    color:#a72800;
+    content:'\f10d';
+    font-family:'FontAwesome';
+    font-size:30px;
+    position:absolute;
+    top:5px;
+    left:8px;
+    display:block;
+}
+*/
+/*
+blockquote:after {
+    content:'\f10e';
+    bottom:0;
+    right:8px;
+    top:auto;
+    left:auto;
+}
+*/
+
+/*image not appearing*/
+
+.bottle-layer{
+    width: 100%; 
+    background-image:url(../images/bottle-layer
+        .jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*red-used  #a72800
+green-used  #68910a
+gold-used   #f7c229
+*/
+product-container {
+    color: #a72800
+	margin:10px;
+    background-color: rgba(104, 145, 10, 0.3);
+	display:flex;
+	flex-wrap: wrap;
+    flex-direction: row;
+	justify-content: space-around;
+}
+
+.product {
+    margin:10px;
+    background-color: rgba(104, 145, 10, 0.3);
+	display:flex;
+	justify-content: space-around;
+}
+
+.product-image{
+    margin:10px;
+/*	height:25%;*/
+    
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+}
+
+.product img {
+    width:100%;
+}
+.product-steps {
+   margin:10px;
+	padding:10px;
+    color: #a72800;
+    text-align: right
+    font-size: 50px;
+    
+}
